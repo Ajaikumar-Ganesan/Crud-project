@@ -13,9 +13,7 @@ function EditProduct() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  useEffect(() => {
-    getProduct();
-  }, []);
+ 
 
   const getProduct = async () => {
     const res = await axios.get(
@@ -26,6 +24,11 @@ function EditProduct() {
     setEmail(res.data.email);
     setPassword(res.data.password);
   };
+   useEffect(() => {
+    getProduct();
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+
+  }, []);
 
   const updateProduct = async () => {
     await axios.put(
