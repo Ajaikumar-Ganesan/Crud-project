@@ -24,11 +24,10 @@ function EditProduct() {
     setEmail(res.data.email);
     setPassword(res.data.password);
   };
-   useEffect(() => {
-    getProduct();
-      // eslint-disable-next-line react-hooks/exhaustive-deps
-
-  }, []);
+// eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
+  getProduct();
+}, []);
 
   const updateProduct = async () => {
     await axios.put(
