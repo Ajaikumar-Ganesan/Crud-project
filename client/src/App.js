@@ -8,7 +8,7 @@ import Addprodcutlist from './pages/Addproductlist'
 // import Login from './pages/Login'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Navbar1 from "./Component/Navbar1";
-import Courses from "./pages/Courser";
+
 
 
 

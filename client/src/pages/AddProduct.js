@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import landing from "../crud-img/girls-landing.png"
+// import landing from "../crud-img/girls-landing.png"
 
 
 
