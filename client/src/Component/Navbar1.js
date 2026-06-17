@@ -32,6 +32,7 @@ return (
             <Nav.Link as={Link} to={'/'}>Home</Nav.Link>
             {/* <Nav.Link onClick={goCourses} as={Link} to={'/Courser'} >Courese</Nav.Link> */}
             <Nav.Link href="#Courses">Courses</Nav.Link>
+            {/* <Nav.Link as={Link} to={'/courses'}>Courses</Nav.Link> */}
             <Nav.Link href="#Statistics">Statistics</Nav.Link>
             <Nav.Link href="#About">About</Nav.Link>
             <Nav.Link as={Link} to={'/list'}> LoginList</Nav.Link>

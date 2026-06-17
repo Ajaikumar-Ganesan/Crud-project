@@ -100,6 +100,7 @@ function Home() {
 
       <div style={{marginTop:"70px", zIndex:"10", position:"relative"}} id="Courses">
       <Courses />
+      </div>
       <div  id="Statistics" >
 
        <Statistics/>
@@ -107,7 +108,7 @@ function Home() {
       </div>
 
      
-      </div>
+      
       <div id="Middel">
        <Middel/>
       </div>
