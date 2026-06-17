@@ -90,9 +90,9 @@ const navigate = useNavigate();
                 </label>
               </div>
 
-              <a href="#" className="text-primary text-decoration-none me-5">
+              <span  className="text-primary text-decoration-none me-5">
                 Forgot Password?
-              </a>
+              </span>
             </div>
 
             <button

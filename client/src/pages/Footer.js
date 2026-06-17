@@ -29,11 +29,12 @@ function Footer() {
     </p>
 
     <div className="social-icons">
-      <a ><FaFacebookF /></a>
-      <a ><FaTwitter /></a>
-      <a ><FaInstagram /></a>
-      <a ><FaLinkedinIn /></a>
-      <a ><FaYoutube /></a>
+      <span ><FaFacebookF /></span>
+      <span><FaTwitter /></span>
+      <span><FaInstagram /></span>
+      <span><FaLinkedinIn /></span>
+      <span><FaYoutube /></span>
+      
     </div>
   </div>
 
@@ -44,11 +45,11 @@ function Footer() {
     </h5>
 
     <ul className="footer-links">
-      <li><a >Home</a></li>
-      <li><a >Courses</a></li>
-      <li><a >About Us</a></li>
-      <li><a >Features</a></li>
-      <li><a >Testimonials</a></li>
+      <li><span>Home</span></li>
+      <li><span >Courses</span></li>
+      <li><span >About Us</span></li>
+      <li><span>Features</span></li>
+      <li><span>Testimonials</span></li>
     </ul>
   </div>
 
@@ -59,11 +60,11 @@ function Footer() {
     </h5>
 
     <ul className="footer-links">
-      <li><a >Web Development</a></li>
-      <li><a >UI/UX Design</a></li>
-      <li><a >Data Science</a></li>
-      <li><a >Digital Marketing</a></li>
-      <li><a >Business Management</a></li>
+      <li><span >Web Development</span></li>
+      <li><span >UI/UX Design</span></li>
+      <li><span >Data Science</span></li>
+      <li><span >Digital Marketing</span></li>
+      <li><span >Business Management</span></li>
     </ul>
   </div>
 
@@ -94,13 +95,13 @@ function Footer() {
   </div>
 
   <div className="col-md-6 text-md-end">
-    <a  className="footer-bottom-link">
+    <span  className="footer-bottom-link">
       Privacy Policy
-    </a>
+    </span>
 
-    <a  className="footer-bottom-link ms-3">
+    <span  className="footer-bottom-link ms-3">
       Terms of Service
-    </a>
+    </span>
   </div>
 
 </div>
